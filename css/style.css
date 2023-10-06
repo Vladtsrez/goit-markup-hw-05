@@ -866,9 +866,6 @@ fill: #ffffff
     line-height: 1.14;
     line-height: 1.17;
     letter-spacing: 0.04em;
-
-    display: flex;
-    align-items: center;
     position: relative;
 }
 
@@ -887,13 +884,11 @@ fill: #ffffff
 }
 
 .checkbox-icon-default {
-  display: inline-flex;
 position: absolute;
 }
 
 .checkbox-icon {
   position: absolute;
-  display: inline-flex;
   fill: none;
 }
 
