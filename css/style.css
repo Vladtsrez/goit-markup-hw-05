@@ -821,6 +821,7 @@ fill: #ffffff
 .form-text-area {
   height: 120px;
   padding: 8px 16px;
+  margin-bottom: 24px;
   resize: none;
   font-size: 12px;
   line-height: 1.17;
@@ -872,7 +873,7 @@ fill: #ffffff
 }
 
 .check-text-box {
-        display: inline-flex;
+      display: inline-flex;
       width: 16px;
       height: 16px;
       margin-right: 8px;
@@ -886,11 +887,13 @@ fill: #ffffff
 }
 
 .checkbox-icon-default {
+  display: inline-flex;
 position: absolute;
 }
 
 .checkbox-icon {
   position: absolute;
+  display: inline-flex;
   fill: none;
 }
 
