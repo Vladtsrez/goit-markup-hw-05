@@ -772,10 +772,13 @@ fill: #ffffff
     letter-spacing: 0.04em;
 }
 
-.modal-field-comment {
+.modal-field:nth-child(4) {
   margin-bottom: 16px;
 }
 
+.modal-field:nth-child(5){
+  margin-bottom: 24px;
+}
 .form-label:last-child {
   margin-bottom: 0;
 }
