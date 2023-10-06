@@ -528,28 +528,31 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
+        <div class="footer-form-wrap">
           <p class="form-title">Subscribe</p>
-          <div class="form-items-wrap">
-            <input
-              type="email"
-              placeholder="E-mail"
-              class="footer-form-input"
-            />
+          <form class="footer-form">
+            <label class="footer-form">
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="footer-form-input"
+                name="footer-form-input"
+              />
+            </label>
             <button type="submit" class="form-btn">
               Subscribe
-              <svg width="24" height="24">
+              <svg width="24" height="24" class="form-btn-icon">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
       <div class="modal">
-        <button class="modal-close-btn">
-          <svg width="8" height="8">
+        <button type="button" class="modal-close-btn">
+          <svg width="8" height="8" class="modal-close-icon">
             <use href="./images/icons.svg#icon-close-2-1"></use>
           </svg>
         </button>
@@ -558,16 +561,16 @@
           <div class="modal-field">
             <label class="form-label" for="user-name">Name</label>
             <div class="input-wrap">
-              <svg width="18" height="18" class="modal-input-icon">
-                <use href="./images/icons.svg#icon-person-1"></use>
-              </svg>
               <input
                 class="form-input"
                 type="text"
-                name="username"
+                name="user-name"
                 id="user-name"
                 required
               />
+              <svg width="18" height="18" class="modal-input-icon">
+                <use href="./images/icons.svg#icon-person-1"></use>
+              </svg>
             </div>
           </div>
           <div class="modal-field">
